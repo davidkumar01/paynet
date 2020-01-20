@@ -1,0 +1,34 @@
+1.Pick any cloud provider of your choice: AWS, Google Cloud or Azure.
+
+2. Setup a 3-tiered application (web, app, database); use the Internet for an appropriate example.
+3. Setup a monitoring stack based on Prometheus and Grafana. Monitor the items in #2 with transactions repeatedly incoming.
+4. Setup a logging stack based on ELK. Extract logs from items in #2 basis the incoming transactions.
+5. Integration with a source code repository such as Github is preferred.
+6. If sections can be automated using Ansible / Chef / Puppet and Jenkins, that would be ideal.
+ — i.e., the setup of the 3-tiered application should be executed via automation.
+7. Cloud implementation should adhere to Cloud best practices from a redundancy and security point of view.
+8. The candidate is given a free hand to expand on the lab and impress us with other technical magic.
+
+Extra points if they use native cloud API calls instead of clicking around on a web browser console
+====================================================================================================================================
+AWS Cloud t2 micro 1GB RAM so unbale to support our 3cluster's 
+1.  aws cloud unable to created because cost & high price.
+2. I was implemented vmware 2 node cluster.
+          a. Master/ slave  node i install elasticsearch 
+          b. windows server i was install  kibana & Logstash 
+
+3.  Master node / slave node we config    elasticsearch 
+4.  window server config kibana/ logstash 
+5. logstash push the  logs in master node.
+6. kibana show the dashboard for Master node 
+7. slave node / data node we can install Jekins/  Ansible 
+
+
+1.  One Node I will installed Docker Jenkins image & up and running  Jenkins 
+2.  I will create new GitHub Repositories (https://github.com/davidkumar01?tab=repositories)
+3. Github any changes happing automatical Jenkin will monitor the GitHub.
+
+
+Thanks
+Kumaraswamy
+
